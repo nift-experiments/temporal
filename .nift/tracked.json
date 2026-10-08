@@ -921,13 +921,13 @@
       "template": "templates/raw.html"
     },
     {
-      "name": "develop/dotnet/activities/standalone-activities/index",
-      "title": "Standalone Activities Feature Guide",
+      "name": "develop/dotnet/activities/standalone-activities-quickstart/index",
+      "title": "Standalone Activities .NET Quickstart",
       "template": "templates/raw.html"
     },
     {
-      "name": "develop/dotnet/activities/standalone-activities-quickstart/index",
-      "title": "Standalone Activities .NET Quickstart",
+      "name": "develop/dotnet/activities/standalone-activities/index",
+      "title": "Standalone Activities Feature Guide",
       "template": "templates/raw.html"
     },
     {
@@ -1151,13 +1151,13 @@
       "template": "templates/raw.html"
     },
     {
-      "name": "develop/go/activities/standalone-activities/index",
-      "title": "Standalone Activities Feature Guide",
+      "name": "develop/go/activities/standalone-activities-quickstart/index",
+      "title": "Standalone Activities Go Quickstart",
       "template": "templates/raw.html"
     },
     {
-      "name": "develop/go/activities/standalone-activities-quickstart/index",
-      "title": "Standalone Activities Go Quickstart",
+      "name": "develop/go/activities/standalone-activities/index",
+      "title": "Standalone Activities Feature Guide",
       "template": "templates/raw.html"
     },
     {
@@ -1431,13 +1431,13 @@
       "template": "templates/raw.html"
     },
     {
-      "name": "develop/java/activities/standalone-activities/index",
-      "title": "Standalone Activities Feature Guide",
+      "name": "develop/java/activities/standalone-activities-quickstart/index",
+      "title": "Standalone Activities Java Quickstart",
       "template": "templates/raw.html"
     },
     {
-      "name": "develop/java/activities/standalone-activities-quickstart/index",
-      "title": "Standalone Activities Java Quickstart",
+      "name": "develop/java/activities/standalone-activities/index",
+      "title": "Standalone Activities Feature Guide",
       "template": "templates/raw.html"
     },
     {
@@ -1826,13 +1826,13 @@
       "template": "templates/raw.html"
     },
     {
-      "name": "develop/python/activities/standalone-activities/index",
-      "title": "Standalone Activities Feature Guide",
+      "name": "develop/python/activities/standalone-activities-quickstart/index",
+      "title": "Standalone Activities Python Quickstart",
       "template": "templates/raw.html"
     },
     {
-      "name": "develop/python/activities/standalone-activities-quickstart/index",
-      "title": "Standalone Activities Python Quickstart",
+      "name": "develop/python/activities/standalone-activities/index",
+      "title": "Standalone Activities Feature Guide",
       "template": "templates/raw.html"
     },
     {
@@ -2111,13 +2111,13 @@
       "template": "templates/raw.html"
     },
     {
-      "name": "develop/ruby/activities/standalone-activities/index",
-      "title": "Standalone Activities Feature Guide",
+      "name": "develop/ruby/activities/standalone-activities-quickstart/index",
+      "title": "Standalone Activities Ruby Quickstart",
       "template": "templates/raw.html"
     },
     {
-      "name": "develop/ruby/activities/standalone-activities-quickstart/index",
-      "title": "Standalone Activities Ruby Quickstart",
+      "name": "develop/ruby/activities/standalone-activities/index",
+      "title": "Standalone Activities Feature Guide",
       "template": "templates/raw.html"
     },
     {
@@ -2306,13 +2306,13 @@
       "template": "templates/raw.html"
     },
     {
-      "name": "develop/rust/activities/standalone-activities/index",
-      "title": "Standalone Activities Feature Guide",
+      "name": "develop/rust/activities/standalone-activities-quickstart/index",
+      "title": "Standalone Activities Rust Quickstart",
       "template": "templates/raw.html"
     },
     {
-      "name": "develop/rust/activities/standalone-activities-quickstart/index",
-      "title": "Standalone Activities Rust Quickstart",
+      "name": "develop/rust/activities/standalone-activities/index",
+      "title": "Standalone Activities Feature Guide",
       "template": "templates/raw.html"
     },
     {
@@ -2446,13 +2446,13 @@
       "template": "templates/raw.html"
     },
     {
-      "name": "develop/typescript/activities/standalone-activities/index",
-      "title": "Standalone Activities Feature Guide",
+      "name": "develop/typescript/activities/standalone-activities-quickstart/index",
+      "title": "Standalone Activities TypeScript Quickstart",
       "template": "templates/raw.html"
     },
     {
-      "name": "develop/typescript/activities/standalone-activities-quickstart/index",
-      "title": "Standalone Activities TypeScript Quickstart",
+      "name": "develop/typescript/activities/standalone-activities/index",
+      "title": "Standalone Activities Feature Guide",
       "template": "templates/raw.html"
     },
     {
@@ -2636,13 +2636,13 @@
       "template": "templates/raw.html"
     },
     {
-      "name": "develop/typescript/workflows/cancellation/index",
-      "title": "Cancel a Workflow - TypeScript SDK",
+      "name": "develop/typescript/workflows/cancellation-scopes/index",
+      "title": "Cancellation scopes - TypeScript SDK",
       "template": "templates/raw.html"
     },
     {
-      "name": "develop/typescript/workflows/cancellation-scopes/index",
-      "title": "Cancellation scopes - TypeScript SDK",
+      "name": "develop/typescript/workflows/cancellation/index",
+      "title": "Cancel a Workflow - TypeScript SDK",
       "template": "templates/raw.html"
     },
     {
@@ -2966,11 +2966,6 @@
       "template": "templates/raw.html"
     },
     {
-      "name": "nexus/index",
-      "title": "Temporal Nexus",
-      "template": "templates/raw.html"
-    },
-    {
       "name": "nexus/metrics/index",
       "title": "Nexus Metrics",
       "template": "templates/raw.html"
@@ -3006,6 +3001,11 @@
       "template": "templates/raw.html"
     },
     {
+      "name": "nexus/index",
+      "title": "Temporal Nexus",
+      "template": "templates/raw.html"
+    },
+    {
       "name": "standalone-nexus-operation/index",
       "title": "Standalone Nexus Operation",
       "template": "templates/raw.html"
@@ -3028,11 +3028,6 @@
     {
       "name": "encyclopedia/temporal-client/index",
       "title": "Temporal Client",
-      "template": "templates/raw.html"
-    },
-    {
-      "name": "temporal/index",
-      "title": "What is Temporal?",
       "template": "templates/raw.html"
     },
     {
@@ -3068,6 +3063,11 @@
     {
       "name": "temporal-service/visibility/index",
       "title": "Visibility",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "temporal/index",
+      "title": "What is Temporal?",
       "template": "templates/raw.html"
     },
     {
@@ -3171,26 +3171,6 @@
       "template": "templates/raw.html"
     },
     {
-      "name": "handling-messages/index",
-      "title": "Handling Signals, Queries, & Updates",
-      "template": "templates/raw.html"
-    },
-    {
-      "name": "sending-messages/index",
-      "title": "Sending Signals, Queries, & Updates",
-      "template": "templates/raw.html"
-    },
-    {
-      "name": "encyclopedia/workflow-message-passing/index",
-      "title": "Temporal Workflow message passing - Signals, Queries, & Updates",
-      "template": "templates/raw.html"
-    },
-    {
-      "name": "workflow-streams/index",
-      "title": "Workflow Streams",
-      "template": "templates/raw.html"
-    },
-    {
       "name": "patching/index",
       "title": "Patching",
       "template": "templates/raw.html"
@@ -3243,6 +3223,26 @@
     {
       "name": "encyclopedia/workflow/workflow-pause/index",
       "title": "Workflow Pause",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "handling-messages/index",
+      "title": "Handling Signals, Queries, & Updates",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "sending-messages/index",
+      "title": "Sending Signals, Queries, & Updates",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "encyclopedia/workflow-message-passing/index",
+      "title": "Temporal Workflow message passing - Signals, Queries, & Updates",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "workflow-streams/index",
+      "title": "Workflow Streams",
       "template": "templates/raw.html"
     },
     {
@@ -3606,13 +3606,13 @@
       "template": "templates/raw.html"
     },
     {
-      "name": "production-deployment/worker-deployments/serverless-workers/agentcore/index",
-      "title": "Deploy a Serverless Worker on Amazon Bedrock AgentCore Runtime",
+      "name": "production-deployment/worker-deployments/serverless-workers/agentcore/self-hosted-setup/index",
+      "title": "Self-hosted setup for Serverless Workers on Amazon Bedrock AgentCore Runtime",
       "template": "templates/raw.html"
     },
     {
-      "name": "production-deployment/worker-deployments/serverless-workers/agentcore/self-hosted-setup/index",
-      "title": "Self-hosted setup for Serverless Workers on Amazon Bedrock AgentCore Runtime",
+      "name": "production-deployment/worker-deployments/serverless-workers/agentcore/index",
+      "title": "Deploy a Serverless Worker on Amazon Bedrock AgentCore Runtime",
       "template": "templates/raw.html"
     },
     {

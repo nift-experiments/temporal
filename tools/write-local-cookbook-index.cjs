@@ -1,0 +1,1 @@
+const fs=require('fs'),path=require('path');exports.writeAiCookbookIndex=dir=>{fs.mkdirSync(dir,{recursive:true});fs.copyFileSync(path.join(__dirname,'../bin/ai-cookbook-index-template.mdx'),path.join(dir,'index.mdx'));};

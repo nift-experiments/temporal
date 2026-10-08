@@ -6,7 +6,7 @@ const fs = require('fs/promises');
 const path = require('path');
 const os = require('os');
 const yaml = require('js-yaml');
-const { writeAiCookbookIndex } = require('../compat/upstream-cookbook/write-ai-cookbook-index');
+const { writeAiCookbookIndex } = require('./write-local-cookbook-index.cjs');
 
 const REPO_URL = process.env.AI_COOKBOOK_REPO ?? 'https://github.com/temporalio/ai-cookbook.git';
 const REPO_BRANCH = process.env.AI_COOKBOOK_BRANCH ?? 'main';
