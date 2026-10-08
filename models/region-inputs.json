@@ -1,0 +1,6 @@
+{
+  "regionFiles": {
+    "aws": "docs/cloud/references/regions/awsregions.md",
+    "gcp": "docs/cloud/references/regions/gcpregions.md"
+  }
+}

@@ -1,1 +1,1 @@
-const fs=require('fs'),path=require('path');exports.writeAiCookbookIndex=dir=>{fs.mkdirSync(dir,{recursive:true});fs.copyFileSync(path.join(__dirname,'../bin/ai-cookbook-index-template.mdx'),path.join(dir,'index.mdx'));};
+const fs=require('fs'),path=require('path');exports.writeAiCookbookIndex=dir=>{fs.mkdirSync(dir,{recursive:true});const file=path.join(dir,'index.mdx'),bytes=fs.readFileSync(path.join(__dirname,'../bin/ai-cookbook-index-template.mdx'));if(!fs.existsSync(file)||!fs.readFileSync(file).equals(bytes))fs.writeFileSync(file,bytes);};

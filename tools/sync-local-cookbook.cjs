@@ -67,7 +67,7 @@ async function readFile(filePath) {
 
 async function writeFile(targetPath, content) {
   await fs.mkdir(path.dirname(targetPath), { recursive: true });
-  await fs.writeFile(targetPath, content, 'utf8');
+  let previous;try{previous=await fs.readFile(targetPath,'utf8');}catch(error){if(error.code!=='ENOENT')throw error;}if(previous!==content)await fs.writeFile(targetPath,content,'utf8');
 }
 
 async function clearExistingOutput() {
@@ -181,7 +181,7 @@ async function copyRecipeAssets(readmePath, slug) {
       const relative = path.relative(recipeDir, entryPath);
       const targetName = buildAssetTargetName(slug, relative, ext, usedNames);
       const targetPath = path.join(OUTPUT_DIR, targetName);
-      await fs.copyFile(entryPath, targetPath);
+      const incoming=await fs.readFile(entryPath);let previous;try{previous=await fs.readFile(targetPath);}catch(error){if(error.code!=='ENOENT')throw error;}if(!previous||!previous.equals(incoming))await fs.writeFile(targetPath,incoming);
       assetMap.set(normalizePathKey(entryPath), `./${targetName}`);
     }
   }
