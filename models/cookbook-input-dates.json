@@ -1,0 +1,21 @@
+{
+  "README.md": "2026-04-27T11:13:01-04:00",
+  "deep_research/basic_openai_python/README.md": "2026-08-14T14:32:36-07:00",
+  "foundations/claim_check_pattern_python/README.md": "2026-09-16T11:35:15-05:00",
+  "foundations/structured_output_openai_responses_python/README.md": "2026-08-14T14:32:36-07:00",
+  "foundations/hello_world_openai_responses_python/README.md": "2026-08-14T14:32:36-07:00",
+  "foundations/hello_world_litellm_python/README.md": "2026-09-09T13:23:30-07:00",
+  "foundations/http_retry_enhancement_python/README.md": "2026-08-14T14:32:36-07:00",
+  "agents/ai_sdk_by_vercel_typescript/README.md": "2026-08-18T10:02:38-07:00",
+  "agents/guardrails_hard_rules_python/README.md": "2026-08-14T14:04:32-07:00",
+  "agents/openai_agents_sdk_python/README.md": "2026-08-14T14:32:36-07:00",
+  "agents/tool_call_openai_python/README.md": "2026-08-14T14:32:36-07:00",
+  "agents/human_in_the_loop_python/README.md": "2026-08-14T14:04:32-07:00",
+  "agents/agentic_loop_tool_call_claude_python/README.md": "2026-08-14T14:32:36-07:00",
+  "agents/strands_agents_python/README.md": "2026-08-14T14:04:32-07:00",
+  "agents/agentic_loop_tool_call_openai_python/README.md": "2026-08-14T14:32:36-07:00",
+  "agents/multi_agent_adk_python/README.md": "2026-09-09T13:02:51-07:00",
+  "agents/agentic_loop_tool_call_openai_python/tools/README.md": "2025-12-04T11:51:02-08:00",
+  "agents/agentic_loop_tool_call_claude_python/tools/README.md": "2026-01-16T06:49:23-08:00",
+  "mcp/hello_world_durable_mcp_server/README.md": "2026-08-14T14:32:36-07:00"
+}

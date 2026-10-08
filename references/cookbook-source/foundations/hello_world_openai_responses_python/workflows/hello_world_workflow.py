@@ -1,0 +1,24 @@
+from datetime import timedelta
+
+from temporalio import workflow
+
+with workflow.unsafe.imports_passed_through():
+    from activities import openai_responses
+
+
+@workflow.defn
+class HelloWorld:
+    @workflow.run
+    async def run(self, input: str) -> str:
+        system_instructions = "You only respond in haikus."
+        result = await workflow.execute_activity(
+            openai_responses.create,
+            openai_responses.OpenAIResponsesRequest(
+                model="gpt-4o-mini",
+                instructions=system_instructions,
+                input=input,
+            ),
+            start_to_close_timeout=timedelta(seconds=30),
+        )
+        return result.output_text
+ 
